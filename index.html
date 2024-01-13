@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="./backward assets/logo.png">
+<title>Spotify - Web Player: Music for everyone</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+</head>
+<body>
+<div class="main">
+
+<div class="sidebar">
+<!-- navbar -->
+<div class="nav">
+<div class="nav_option" style="opacity:1;">
+<i class="fa-solid fa-house"></i>
+<a href="#">Home</a>
+
+</div>
+
+<div class="nav_option">
+<i class="fa-solid fa-magnifying-glass"></i>
+<a href="#">Search</a>
+</div>
+
+</div>
+
+<!-- Library bar -->
+<div class="library">
+<!-- Library icons and name -->
+<div class="library_option">
+
+<div class="library_nav">
+<img src="./backward assets/library_icon.png" alt="Your library" class="img1">
+<a href="#">Your Library</a> 
+</div>
+
+<div class="icon">
+<i class="fa-solid fa-plus"></i>
+<i class="fa-solid fa-arrow-right"></i>
+</div>
+</div> 
+
+
+<div class="lib_box">
+
+<div class="box">
+<div class="box_p1">Create your first playlist</div>
+<div class="box_p2">It's easy,we'll help you</div>
+<button class="badge">Create playlist</button>
+</div>
+<div class="box">
+<div class="box_p1">Let's find some podcasts to follow</div>
+<div class="box_p2">We'll keep you updated on new episodes</div>
+<button class="badge">Browse podcasts</button>
+</div>
+</div>
+</div>     
+</div> 
+<div class="maincontent">
+
+<div class="sticky_nav">
+
+<div class="sticky_nav_icons">
+<img src="./backward assets/backward_icon.png">
+<img  src="./backward assets/forward_icon.png" class="hide">
+</div>
+
+<div class="sticky_nav_option">
+<button class="badge nav_items hide">Explore Premium</button>
+
+<button class="badge2 nav_items"><i class="fa-regular fa-circle-down" style="color: #ffffff; margin-right:0.5rem;"></i><a href="#">Install App</a></button>
+<i class="fa-regular fa-bell nav_items  icon_1"></i>
+<i class="fa-solid fa-user icon_2 nav_items"></i>
+</div>
+
+</div>
+
+<h2>Recently Played</h2>
+    <div class="cards_container">
+        <div class="cards">
+         <img src="./backward assets/card1img.jpeg" class="img2">
+         <p class="card-title">Top 50-Global</p>
+         <p class="card-info">Your daily update of the most played tracks...</p>
+         </div>
+    </div>
+
+
+<h2>Trending now near you</h2>
+
+    <div class="cards_container">
+        <div class="cards">
+        <img src="./backward assets/card2img.jpeg" class="img2">
+        <p class="card-title">Top 50-Global</p>
+        <p class="card-info">Your daily update of the most played tracks...</p>
+        </div>
+        
+        <div class="cards">
+            <img src="./backward assets/card3img.jpeg" class="img2">
+            <p class="card-title">Top 50-Global</p>
+            <p class="card-info">Your daily update of the most played tracks...</p>
+        </div>
+        <div class="cards">
+            <img src="./backward assets/card4img.jpeg" class="img2">
+            <p class="card-title">Top 50-Global</p>
+            <p class="card-info">Your daily update of the most played tracks...</p>
+        </div>
+       
+    </div>
+     <h2>Featured Charts</h2>
+     <div class="cards_container">
+     <div class="cards">
+            <img src="./backward assets/card5img.jpeg" class="img2">
+            <p class="card-title">Top Songs Global</p>
+            <p class="card-info">Your weekly update of the most played tracks right...</p>
+        </div>
+        <div class="cards">
+            <img src="./backward assets/card6img.jpeg" class="img2">
+            <p class="card-title">Top Songs-India</p>
+            <p class="card-info">Your weekly update of the most played tracks right...</p>
+        </div>
+      </div>
+     <div class="footer">
+        <div class="line">
+
+        </div>
+     </div>
+</div>
+
+<div class="musicplayer">
+
+ <div class="album">
+ <img src="./homework assets/album_picture.jpeg" class="album_picture">
+ <div class="album_title"><a href="#">Daylight</a></div>
+ <div class="album_details"><a href="#">David Kushner</a></div>
+ <div class="album_ic">
+ <img src="./homework assets/album_icon1.png" class="album_icons1">
+ <img src="./homework assets/album_icon2.png" class="album_icons2">
+ </div> 
+ </div>
+
+<div class="player">
+    <div class="player_control">
+      <img src="./backward assets/player_icon1.png" class="player_button_icons">
+      <img src="./backward assets/player_icon2.png"class="player_button_icons">
+      <img src="./backward assets/player_icon3.png" class="player_button_icons" style="opacity:1;height:2rem;">
+      <img src="./backward assets/player_icon4.png" class="player_button_icons">
+      <img src="./backward assets/player_icon5.png" class="player_button_icons">
+
+    </div>
+
+    <div class="play_back">
+        <span class="curr_time">00:00</span>
+        <input type="range" min="0" max="100" step="1"  class="progress_bar">
+        <span class="tot_time">00:00</span>
+    </div>
+</div>
+
+
+<div class="control">
+   
+ <img src="./homework assets/controls_icon1.png"style="padding:0.5rem;" >
+ <img src="./homework assets/controld_icon2.png" style="padding:0.5rem;">
+ <img src="./homework assets/controls_icon3.png" style="opacity:0.7; padding:0.5rem;" >
+ 
+ <img src="./homework assets/controls_icon5.png"  width="50px" height="50px">
+ <input type="range" min="0" max="100" step="1"  class="control_music">
+ <img src="./homework assets/controls_icon4.png"style="opacity:0.7; padding: 1.5rem;"  >
+</div>
+
+</div>
+ 
+</div>
+</body>
+</html>

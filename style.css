@@ -1,0 +1,425 @@
+body{
+   font-family: 'Montserrat', sans-serif;
+   margin:0;
+   padding:0;
+   overflow:hidden;
+   background-color: black;
+   color:white;
+}
+
+.main{
+    display: flex;
+    height:100vh;
+    padding: 0.5rem;
+}
+
+.sidebar{
+    margin-right: 0.5rem;
+    background-color: black;
+    width:350px;
+    border-radius:1rem;
+}
+
+.maincontent{
+    background-color:#121212;
+    flex:1;
+    border-radius:1rem;
+    overflow:scroll;
+    padding:0 1.5rem 0 1.5rem;
+}
+
+.musicplayer{
+    width:100%;
+    height: 72px;
+    background-color:black;
+    position:fixed;
+    bottom: 0;
+
+}
+
+.nav{
+
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     padding:0.5rem 0.75rem; 
+     background-color: #121212;
+     border-radius: 1rem;
+     
+}
+.nav_option{
+    padding: 0.5rem 0.75rem;
+    line-height:2.5rem;
+    opacity: 0.7;
+}
+
+.nav_option:hover{
+    opacity: 1;
+}
+.nav_option i{
+    font-size: 1.25rem;
+}
+
+.nav_option a{
+     margin-left: 1rem;
+     font-size:1rem;
+}
+
+a{  
+    text-decoration: none;
+    color:white;
+   
+}
+
+.library{
+    padding: 0.5rem 0.75rem;
+    margin-top:0.5rem;
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+}
+
+.library_option{
+    display: flex;
+    justify-content:space-between;
+    font-size:1rem;
+    padding: 0.5rem 0.75rem;
+}
+.library_nav{
+    opacity: 0.7;
+}
+
+.library_nav:hover{
+ opacity: 1;
+}
+
+.img1{
+    width:1.25rem;
+    height: 1.25rem;
+ 
+}
+.library_nav a{
+    padding: 0.25rem 0.5rem;
+    margin-left:1rem;
+}
+
+
+.library_nav i{
+ margin-left: 1rem;
+}
+
+.icon{
+    font-size: 1rem;
+    margin-right:3rem;
+    display: flex;
+    align-items:center;
+    gap:1rem;
+   
+}
+
+
+.icon i{
+    opacity:0.7;
+}
+
+.icon i:hover{
+    opacity:1;
+}
+
+.box{
+
+    margin:0.75rem 0 1.75rem 0;
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    background-color: #242424;
+    height:8rem;
+}
+
+.lib_box .box_p1{
+    line-height: 1.5rem;
+}
+
+.lib_box .box_p2{
+    line-height: 3rem;
+}
+.box_p1{
+    font-size:1rem;
+    font-weight: 700;
+    line-height: 1rem;
+    
+}
+
+.box_p2{
+    
+    font-weight: 500;
+    font-size:0.75rem;
+
+}
+
+.badge{
+    margin-top:0.5rem;
+    padding:0.25rem 1rem;
+    font-weight:700;
+    background-color: white;
+    border:none;
+    border-radius: 100px;
+    height: 2rem;
+    width:fit-content;
+}
+
+
+.div1{
+    background-color: black;
+    
+}
+
+
+.sticky_nav{
+    position: sticky;
+    top:0;
+    background-color:#121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    z-index:10;
+}
+
+.sticky_nav_icons{
+    margin-left:0.75rem;
+}
+
+.badge2 {
+    color: white;
+   
+     margin-top:0.5rem;
+    padding:0.25rem 1rem;
+    font-weight:700;
+    background-color: black;
+    border:none;
+    border-radius: 100px;
+    height: 2rem;
+    width:fit-content;
+}
+
+.sticky_nav_option{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  
+}
+.sticky_nav_option button{
+    margin-right:1rem;
+} 
+.nav_item{
+    margin-right:1rem;
+}
+
+.sticky_nav_option i{
+    margin-right:1.25rem;
+} 
+
+.sticky_nav_icons img{
+    opacity: 0.75;
+}
+
+.icon_1{
+    opacity: 0.75;
+}
+
+@media(max-width:1000px){
+    .hide{
+        display:none;
+    }
+}
+
+.cards{
+    background-color: #181818;
+    width:150px;
+    border-radius:0.5rem;
+    padding:1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.cards:hover{
+    background-color:#242424 ;
+}
+
+.img2{
+    border-radius: 0.5rem;
+    width: 100%;
+   
+
+}
+
+
+
+.cards_container{
+
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+.card-title{
+    color:white;
+    font-size: 1.25rem;
+    font-weight:700;
+  
+}
+
+.card-info{
+   font-size: 0.8rem; 
+   opacity:0.5;
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.line{
+    width:90%;
+    height:50%;
+    border-top:1px solid white;
+    opacity:0.4;
+}
+
+.musicplayer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:25%;
+}
+.album_picture{
+  border-radius:0.5rem;
+  margin-right:1.5rem;
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.album_title a{
+    /* padding: 0 0.75rem 0 0.375rem; */
+    position: relative;
+    bottom: 0.75rem;
+    font-size:14px;
+  
+}
+.album_details a{
+   padding: 0 0.75rem 0 0.375rem;
+   font-size: 11px;
+   position:relative;
+   top:0.5rem;
+   right:4.30rem;
+}
+
+.album_ic{  
+  margin-right:3rem;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.album_icons1{
+    position: relative;
+    right:2rem;
+    height:1.5rem;
+    width: 1.5rem;
+}
+.album_icons2{
+    height:2rem;
+    width: 2rem;
+}
+.player{
+    width: 50%;
+}
+.player_control{
+     display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.player_button_icons{
+    height: 1rem;
+    margin-right:1.75rem;
+    opacity:0.7;
+}
+
+.player_button_icons:hover{
+    opacity:1;
+}
+
+.play_back{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.progress_bar{
+    width: 70%;
+    appearance:none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress_bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.progress_bar::-webkit-slider-thumb{
+    appearance: none;
+    height:1rem;
+    width: 1rem;
+    background-color:#1bd760;
+    border-radius: 50%;
+    margin-top: -6px;;
+}
+
+.control{
+    padding:8px;
+    width:25%;
+    margin-left:0.5rem;
+    display:flex;
+    justify-content:start;
+    align-items: center;
+}
+
+.control img{
+    padding: 4px;
+    width: 1.5rem;
+    height:1.5rem;
+}
+
+ 
+.control_music{
+    width: 40%;
+    appearance:none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.control_music::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.control_music::-webkit-slider-thumb{
+    appearance: none;
+    height:1rem;
+    width: 1rem;
+    background-color:#1bd760;
+    border-radius: 50%;
+    margin-top: -6px;;
+}
+
